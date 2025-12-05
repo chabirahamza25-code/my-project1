@@ -1,0 +1,18 @@
+services:
+
+ db:
+   image: mysql:5.7
+   ports:
+     - "3307:3306"
+   environment:
+     MYSQL_ROOT_PASSWORD: rootpass
+     MYSQL_DATABASE: myapp
+     MYSQL_USER: hamza
+     MYSQL_PASSWORD: hamzapass
+
+ apachphp:
+   build: ./
+   ports:
+     - "80:80"
+   depends_on:
+     - db
