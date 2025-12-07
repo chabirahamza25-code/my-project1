@@ -16,6 +16,11 @@ $count = $result->fetch_assoc()['total'];
 
 echo "<h1>Welcome to my application</h1>";
 echo "<h2>Total visitors: $count</h2>";
+<<<<<<< HEAD
+=======
+echo "<p>Created by Hamza Chabira</p>"; 
+
+>>>>>>> b83964c (add created by hanmza chabira)
 ?>
 
 
