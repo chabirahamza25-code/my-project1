@@ -13,6 +13,12 @@ pipeline {
                     url: 'https://github.com/chabirahamza25-code/my-project1.git'
             }
         }
+
+        stage('Build & Deploy') {
+            steps {
+                sh 'docker compose down'
+                sh 'docker compose up -d'
+            }
+        }
     }
 }
-
