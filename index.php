@@ -16,7 +16,7 @@ $count = $result->fetch_assoc()['total'];
 
 echo "<h1>Welcome to my application</h1>";
 echo "<h2>Total visitors: $count</h2>";
-echo "<p>Created by Hamza Chabir202fdffffffffffdf7</p>"; 
+echo "<p>Created by Hamza Chabir202fdffsdfsdfwtfdf7</p>"; 
 
 
 ?>
